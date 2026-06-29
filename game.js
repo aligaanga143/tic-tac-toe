@@ -318,17 +318,18 @@ function checkDraw() {
 // WINNER POPUP
 // ===============================
 
-function showWinner(player) {
+function showWinner(player){
 
-    msg.innerHTML = `
+    boxes.forEach(box=>box.disabled=true);
 
-        <h2>🎉 Winner : ${player}</h2>
+    msg.innerHTML=`
 
-        <br>
+        <h1>🏆 Winner</h1>
 
-        ━━━━━━━━━━
+        <h2>${player}</h2>
 
-      
+        <p>Congratulations 🎉</p>
+
     `;
 
     msgContainer.classList.remove("hide");
@@ -339,7 +340,10 @@ function showWinner(player) {
 // DRAW POPUP
 // ===============================
 
-function showDraw() {
+function showDraw() { 
+    boxes.forEach(box=>{
+        box.disabled=true;
+    });
 
     msg.innerHTML = `
 
