@@ -11,10 +11,6 @@ This project includes both **Single Player (AI)** and **Double Player** modes wi
 
 https://aligaanga143.github.io/tic-tac-toe/
 
-Example:
-
-https://aligaanga143.github.io/tic-tac-toe/
-
 ---
 
 ## 📸 Screenshot
