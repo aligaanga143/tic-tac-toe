@@ -195,6 +195,11 @@ main h1{
 
     justify-content:center;
 
+    position: relative;
+
+    z-index: 1;
+
+
 }
 
 .box{
@@ -221,14 +226,17 @@ main h1{
 
 }
 
-.box:hover{
+@media (hover: hover){
 
-    transform:scale(1.05);
+    .box:hover{
 
-    background:#fff7a5;
+        transform: scale(1.05);
+
+        background:#fff7a5;
+
+    }
 
 }
-
 /* ===========================
    BUTTONS
 =========================== */
@@ -261,6 +269,8 @@ main h1{
 
     transition:.3s;
 
+    width: 100%;
+
 }
 
 #reset-btn:hover,
@@ -276,39 +286,33 @@ main h1{
 =========================== */
 
 .msg-container{
+    position: fixed;
+    inset: 0;
 
-    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    inset:0;
+    background: rgba(0,0,0,.65);
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    background:rgba(0,0,0,.65);
-
-    z-index:9999;
-
+    z-index: 9999;
 }
 
 .popup{
+    width: 95%;
+    max-width: 420px;
+    background: #fff;
+    color: #222;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.4);
 
-    width:90%;
+    position: relative;
+    z-index: 10000;
 
-    max-width:450px;
+     position: relative;
 
-    background:white;
-
-    color:#222;
-
-    border-radius:20px;
-
-    padding:30px;
-
-    box-shadow:0 15px 40px rgba(0,0,0,.4);
-
+    z-index: 10000;
 }
 
 .popup h2{
@@ -317,7 +321,7 @@ main h1{
 
     margin-bottom:20px;
 
-    font-size:32px;
+    font-size:2rem;
 
 }
 
