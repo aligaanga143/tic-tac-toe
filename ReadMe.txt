@@ -1,28 +1,49 @@
 # 🎮 Tic Tac Toe
 
-A modern and responsive Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
-## 📖 About
+A modern and responsive Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript**.
 
-This project is a simple two-player Tic Tac Toe game where players take turns placing **X** and **O** on a 3×3 grid. The game automatically detects the winner and allows users to reset or start a new game.
-
-This project was created to improve my JavaScript, DOM manipulation, and front-end development skills.
+This project includes both **Single Player (AI)** and **Double Player** modes with a clean user interface and smooth gameplay.
 
 ---
 
-## ✨ Features
+## 🚀 Live Demo
 
-- 🎯 Two-player gameplay
-- 🏆 Automatic winner detection
-- 🔄 Reset Game button
-- 🆕 New Game button
-- 📱 Responsive design
-- ⚡ Fast and lightweight
-- 🎨 Clean user interface
+https://aligaanga143.github.io/tic-tac-toe/
+
+Example:
+
+https://aligaanga143.github.io/tic-tac-toe/
 
 ---
 
-## 🛠️ Built With
+## 📸 Screenshot
+
+
+assets/
+└── screenshot.png
+
+```
+
+---
+
+# ✨ Features
+
+- 🤖 Single Player (Easy AI)
+- 👥 Double Player Mode
+- 🏆 Winner Detection
+- 🤝 Draw Detection
+- 📊 Live Scoreboard
+- 🎯 Current Turn Indicator
+- 🔄 Reset Game
+- 🆕 Play Again
+- 🏠 Home Screen
+- 📱 Fully Responsive
+- 🎨 Modern User Interface
+
+---
+
+# 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -30,71 +51,115 @@ This project was created to improve my JavaScript, DOM manipulation, and front-e
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
-tic-tac-toe/
+tic-tac-toe-pro/
 │
 ├── index.html
 ├── style.css
 ├── game.js
 ├── README.md
 └── assets/
+      └── screenshot.png
 ```
 
 ---
 
-## 🚀 How to Run
+# 🎮 How to Play
 
-1. Download or clone this repository.
-2. Open `index.html` in your web browser.
-3. Enjoy the game!
+### 👥 Double Player
+
+- Player 1 = ❌ X
+- Player 2 = ⭕ O
+
+Take turns placing your marks.
+
+The first player to complete a row, column, or diagonal wins.
 
 ---
 
-## 📸 Screenshot
+### 🤖 Single Player
 
-> assets/screenshot.png
+You play as **X**.
+
+The computer automatically plays as **O**.
+
+Try to beat the AI!
 
 ---
 
-## 📚 What I Learned
+# 🏆 Winning Rules
 
-During this project I practiced:
+A player wins by placing three identical marks in:
 
-- HTML page structure
+- ✅ Horizontal Row
+- ✅ Vertical Column
+- ✅ Diagonal
+
+If all boxes are filled and nobody wins,
+
+the match ends in a **Draw**.
+
+---
+
+# 📚 What I Learned
+
+This project helped me improve my understanding of:
+
+- HTML Structure
 - CSS Flexbox
-- Responsive design
-- JavaScript DOM manipulation
+- Responsive Design
+- JavaScript DOM Manipulation
 - Event Listeners
-- Arrays and Loops
-- Game logic
-- Winner detection
-- Reset functionality
+- Arrays & Loops
+- Functions
+- Conditional Statements
+- Game Logic
+- AI Basics
+- Problem Solving
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
-- 🤖 AI (Computer) Opponent
-- 🎵 Sound Effects
-- 🌙 Dark/Light Mode
-- 📊 Scoreboard
-- 💫 Winning Animation
-- 👥 Player Name Input
-- ⏱️ Timer Mode
+- 🧠 Smart AI (Minimax Algorithm)
+- 🌙 Dark / Light Theme
+- 🔊 Sound Effects
+- ✨ Winning Animation
+- 🎊 Confetti Effect
+- 👤 Player Name Input
+- 💾 Local Storage
+- 🌍 Online Multiplayer
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Developer
 
-**Ali**
+## Ali
 
-Cyber Security Student | Ethical Hacking Learner | Web Security Enthusiast
+**Cyber Security Enthusiast**
 
-GitHub: https://github.com/aligaanga143
+Passionate about:
+
+- 🛡️ Ethical Hacking
+- 🌐 Web Security
+- 🐞 Bug Bounty Hunting
+- ☁️ Cloud Security
+- 💻 Front-End Development
+
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you found this project helpful,
+
+please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more open-source projects.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.

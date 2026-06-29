@@ -11,16 +11,88 @@
 
 <body>
 
-    <div class="msg-container hide">
-        <p id="msg"></p>
-        <button id="new-btn">New Game</button>
+    <!-- Mode Selection -->
+
+    <div id="mode-screen">
+
+        <h1>Tic Tac Toe </h1>
+
+        <p>Select Game Mode</p>
+
+        <div class="mode-buttons">
+
+            <button id="single-btn">
+                🤖 Single Player
+            </button>
+
+            <button id="double-btn">
+                👥 Double Player
+            </button>
+
+        </div>
+
     </div>
 
-    <main>
+    <!-- Winner Message -->
 
-        <h1>
-            Tic Tac Toe
-        </h1>
+    <div class="msg-container hide">
+
+        <div class="popup">
+
+            <h2 id="msg"></h2>
+
+            <button id="new-btn">
+                Play Again
+            </button>
+
+            <div class="credit">
+
+                <hr>
+
+                <h3>Developed by Ali</h3>
+
+                <p>HTML • CSS • JavaScript</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Game Screen -->
+
+    <main id="game-screen" class="hide">
+
+        <h1>Tic Tac Toe</h1>
+
+        <!-- Turn -->
+
+        <h2 id="turn">
+            Player X Turn
+        </h2>
+
+        <!-- Scoreboard -->
+
+        <div class="scoreboard">
+
+            <div>
+                ❌ X :
+                <span id="score-x">0</span>
+            </div>
+
+            <div>
+                ⭕ O :
+                <span id="score-o">0</span>
+            </div>
+
+            <div>
+                🤝 Draw :
+                <span id="score-draw">0</span>
+            </div>
+
+        </div>
+
+        <!-- Game -->
 
         <div class="container">
 
@@ -42,7 +114,17 @@
 
         </div>
 
-        <button id="reset-btn">Reset Game</button>
+        <div class="buttons">
+
+            <button id="reset-btn">
+                Reset
+            </button>
+
+            <button id="home-btn">
+                Home
+            </button>
+
+        </div>
 
     </main>
 
