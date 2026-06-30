@@ -17,7 +17,8 @@ https://aligaanga143.github.io/tic-tac-toe/
 
 
 assets/
-└── screenshot.png
+└── 1.png
+
 
 ```
 
